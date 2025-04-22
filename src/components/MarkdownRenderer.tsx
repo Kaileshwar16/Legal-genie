@@ -13,7 +13,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
     const parseMarkdown = (markdown: string) => {
       let html = markdown;
       
-      // Headers
+          // Headers
       html = html.replace(/^# (.*$)/gim, '<h1 class="text-2xl font-bold my-4">$1</h1>');
       html = html.replace(/^## (.*$)/gim, '<h2 class="text-xl font-bold my-3">$1</h2>');
       html = html.replace(/^### (.*$)/gim, '<h3 class="text-lg font-bold my-2">$1</h3>');
