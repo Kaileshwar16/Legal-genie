@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-// Configure the base URL for your Flask backend
+//  Configure the base URL for your Flask backend
 // When in development mode, point to the Flask server
 const API_URL = 'http://127.0.0.1:5000';
 
