@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { MapPin, Star, Loader2 } from "lucide-react";
 
 interface Lawyer {
-  name: string;
+    name: string;
   address: string;
   rating: number;
   total_ratings: number;

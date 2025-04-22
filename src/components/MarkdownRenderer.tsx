@@ -9,7 +9,7 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
   const [htmlContent, setHtmlContent] = useState('');
 
   useEffect(() => {
-    // Simple markdown parsing
+      // Simple markdown parsing
     const parseMarkdown = (markdown: string) => {
       let html = markdown;
       

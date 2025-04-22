@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import {
-  Dialog,
+    Dialog,
   DialogClose,
   DialogContent,
   DialogDescription,
